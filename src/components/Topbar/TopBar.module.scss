@@ -1,0 +1,20 @@
+/**
+* ! style rules for top-bar component
+**/
+
+.topBar {
+  display: flex;
+  gap: 16px;
+  &__image {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+  }
+  &__text {
+    &__date {
+      font-size: 15px;
+    }
+    &__name {
+    }
+  }
+}

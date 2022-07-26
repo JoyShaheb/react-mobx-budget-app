@@ -1,0 +1,78 @@
+/**
+* ! removing default styles of browser
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #e5e5e5 !important;
+}
+
+/**
+* ! style rules for app component
+**/
+
+#app {
+  position: relative;
+  border: 2px solid gray;
+  height: 600px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/**
+* ! style rules for transaction cards
+**/
+
+[id^="transaction__history--"] {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.row__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row__1--title {
+  font-weight: 600;
+}
+.row__1--date {
+  font-size: 12px;
+}
+
+.row__2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row__2--transID {
+  font-size: 12px;
+}
+
+.row__2--amount {
+  font-weight: 600;
+}
+
+hr {
+  margin: 8px 0 !important;
+}
+
+.red {
+  color: #c42d40;
+}
+
+.green {
+  color: #2d8169;
+}

@@ -1,0 +1,23 @@
+/**
+* ! style rules for transaction component
+**/
+
+.transaction {
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.transaction__text__title {
+  font-size: 16px;
+}
+
+.transaction__text__button {
+  font-size: 14px;
+  color: #2d8169;
+  cursor: pointer;
+}
+
+.transaction__history {
+}
